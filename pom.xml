@@ -22,7 +22,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <exec.mainClass>com.mycompany.proyecto1.Main</exec.mainClass>
+        <exec.mainClass>com.mycompany.calculadora.Calculadora</exec.mainClass>
     </properties>
     <build>
         <plugins>
@@ -33,7 +33,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.mycompany.proyecto1.Main</mainClass>
+                            <mainClass>com.mycompany.calculadora.Calculadora</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
